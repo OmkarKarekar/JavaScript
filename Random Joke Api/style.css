@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fira+Sans&family=Kumar+One+Outline&family=Lobster&family=Noto+Sans+Balinese&family=Oswald&family=Poppins&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    /* box-sizing: border-box; */
+    font-family: 'Poppins', sans-serif;
+    color: #EEEEEE;
+}
+
+body {
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+
+.container {
+    padding: 10px;
+    background-color: #46535d;
+    height: 240px;
+    width: 600px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 15px;
+    position: relative;
+    margin-top: 30px;
+    /* align-items: flex-start; */
+}
+
+.joke {
+    height: 100px;
+    width: 560px;
+    background-color: #46535d;
+    border-radius: 10px;
+    margin-top: 0%;
+    position: relative;
+    /* margin-top: 25px; */
+}
+
+button {
+    background-color: #00ADB5;
+    width: 130px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: larger;
+    position: absolute;
+    right: 4%;
+    cursor: pointer;
+    border: none;
+}
+
+p {
+    margin: 15px;
+}
